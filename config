@@ -38,7 +38,7 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec dmenu_run
 
 bindsym $mod+Tab exec rofi -show window -config ~/.i3/rofi/config
-bindsym $mod+d exec rofi -show run -modi run,ssh -config ~/.i3/rofi/config
+bindsym $mod+d exec "rofi -show run -modi run,ssh -config ~/.i3/rofi/config"
 bindsym $mod+c exec rofi -show calc -modi "calc:qalc +u8 -nocurrencies" -config ~/.i3/rofi/config
 bindsym $mod+q exec ~/.i3/rofi/exec-shell-cmd.sh \"`cat ~/.bash_history | rofi -dmenu -config ~/.i3/rofi/config`\"
 
