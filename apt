@@ -1,0 +1,8 @@
+apt install i3
+apt install rofi
+apt install py3status
+apt install lm-sensors
+apt install network-manager-gnome
+apt install gnome-terminal
+apt install gxkb
+apt install gnome-screenshot
