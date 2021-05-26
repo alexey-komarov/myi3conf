@@ -163,7 +163,7 @@ bar {
 	}
 
 	font pango: Droid Sans Mono 10.5
-	status_command py3status --config ~/.i3/py3status.conf
+	status_command py3status --config ~/.config/i3/py3status.conf
 }
 
 exec --no-startup-id nm-applet
